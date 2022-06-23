@@ -1,157 +1,206 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=">
-	<title>Lit</title>
-	<link rel="shortcut icon" href="../img/favicon.png">
-	<link rel="stylesheet" href="../css/style.css">
-	<!-- wow js -->
-	<link rel="stylesheet" href="../css/animate.css">
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="../img/favicon.png">
 
-	<div class="encabezado__box--white">
-		<p>--Bienvenido a nuestra pagina--</p>
-	</div>
-	
-	<nav>
-		<fieldset class="text-center">
-			<input type="text" name="nombre" id="nombre" placeholder="Que buscas?"><label for="nombre">Buscar</label>
-		</fieldset>
-		<a href="../index.html">
-			<img src="../img/logi.png" alt="Logo de Lit">
-		</a>
-	</nav>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
-	<nav class="text-center">
-		<ul>
-			<li>
-				<a href="../html/inicio.html">Inicio</a>
-			</li>
-			<li>
-				<a href="../html/productos.html">Productos</a>
-			</li>
-			<li>
-				<a href="../html/ofertas.html">Ofertas</a>
-			</li>
-			<li>
-				<a href="../html/nosotros.html">Nosotros</a>
-			</li>
-			<li>
-				<a href="../html/contacto.html">Contacto</a>
-			</li>
-		</ul>
-	</nav>
+    <!-- Mi CSS -->
+    <link rel="stylesheet" href="../css/style.css">
 
-	<!-- Cierra contenido superior -->
+    <!-- wow js -->
+	<link rel="stylesheet" href="../css/animate.css">  
 
-	<!-- inicia contenido principal -->
+    <title>Lit-Eral</title>
+  </head>
+
+  <body>
+    <!--Inicia Nav-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="../index.html">
+          <img src="../img/logo.png" alt="" class="w-50">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link colorcursor" href="../html/inicio.html">INICIO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link colorcursor" href="../html/productos.html">PRODUCTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link colorcursor" href="../html/ofertas.html">OFERTAS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link colorcursor" href="../html/contacto.html">CONTACTOS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link colorcursor" href="../html/nosotros.html">NOSOTROS</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header>
+	    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+	      <div class="carousel-indicators">
+	        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+	        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+	        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+	      </div>
+	      <div class="carousel-inner">
+	        <div class="carousel-item active">
+	          <img src="../img/carru.jpg" class="d-block w-100" alt="...">
+	        </div>
+	        <div class="carousel-item">
+	          <img src="../img/carru1.jpg" class="d-block w-100" alt="...">
+	        </div>
+	        <div class="carousel-item">
+	          <img src="../img/carru2.jpg" class="d-block w-100" alt="...">
+	        </div>
+	      </div>
+	      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+	        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	        <span class="visually-hidden">Previous</span>
+	      </button>
+	      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+	        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	        <span class="visually-hidden">Next</span>
+	      </button>
+	    </div>
+    </header>
+
+	<main>
+	    <div class="container-fluid parriba">
+	      <h1 class="mt-2 text-center parriba">Nuestras Ofertas</h1>
+	      	<legend class="text-center letraz">Busqueda por perifericos</legend>
+			<div class="d-grid gap-2 parriba">
+			  <button class="btn btn-primary" type="button">Mouses</button>
+			  <button class="btn btn-primary" type="button">Teclados</button>
+			  <button class="btn btn-primary" type="button">Audifonos</button>
+			</div>
+	      <section class="row py-2">
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/peri1.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>TeclaMouse x</h2>
+	          <td>Mouse mecanico TKl hot-swap con teclado ultraliviano con sensor PMW 3330</td>
+	          <br>
+	          <p class="text-center">Precio: $5400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/peri2.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>Mouse Hiper</h2>
+	          <td>Mouse ultraliviano de 72 g, diseño simétrico, con sensor PMW 3330, 7200 DPI</td>
+	          <br>
+	          <p class="text-center">Precio: $3400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/peri3.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>Mouse Clamor</h2>
+	          <td>Mouse ultraliviano de 72 g, diseño simétrico, con sensor PMW 3330, 7200 DPI</td>
+	          <br>
+	          <p class="text-center">Precio: $3400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/peri4.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>Teclado Shiny</h2>
+	          <td>Teclado mecánico TKL hot-swap, control multimedia con interruptores Outemu</td>
+	          <br>
+	          <p class="text-center">Precio: $4400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+	      </section>
+		</div>
+
+		<div class="container-fluid parriba">
+	      <section class="row py-2">
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/mouse2.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>TeclaMouse x</h2>
+	          <td>Mouse mecanico TKl hot-swap con teclado ultraliviano con sensor PMW 3330</td>
+	          <br>
+	          <p class="text-center">Precio: $5400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/audi.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>Mouse Hiper</h2>
+	          <td>Mouse ultraliviano de 72 g, diseño simétrico, con sensor PMW 3330, 7200 DPI</td>
+	          <br>
+	          <p class="text-center">Precio: $3400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/audi2.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>Mouse Clamor</h2>
+	          <td>Mouse ultraliviano de 72 g, diseño simétrico, con sensor PMW 3330, 7200 DPI</td>
+	          <br>
+	          <p class="text-center">Precio: $3400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+
+	        <article class="col-sm-12 col-md-6 col-lg-3">
+	          <img src="../img/productos/mouse1.jpg" alt="" class="w-100 img-thumbnail wow bounceIn">
+	          <h2>Teclado Shiny</h2>
+	          <td>Teclado mecánico TKL hot-swap, control multimedia con interruptores Outemu</td>
+	          <br>
+	          <p class="text-center">Precio: $4400</p>
+	          <button type="button" class="btn btn-primary w-100 mb-2">Comprar</button>
+	        </article>
+	      </section>
+		</div>
 
 	</main>
-
-	<header class="bg-light">
-		<h2 class="text-center nosotros__titulo--xl">Ofertas de Lit</h2>
-	</header>
-
-	
-		<section class="text-center">
-			<h1 class="wow bounceInLeft">Nuestras Ofertas</h1>
-			<header>
-				<img src="../img/ofertas.jpg" alt="Ofertas" class="encabezado__img--fluid wow flipInX"><img src="../img/ofertas.jpg" alt="Ofertas" class="encabezado__img--fluid wow flipInX"><img src="../img/ofertas.jpg" alt="Ofertas" class="encabezado__img--fluid wow flipInX">
-			<br>
-			</header>
-			<br>
-			<form action="envio.php" method="post" id="contacto" class="busquedaperi__tam--md flexible wow shake">
-				<fieldset class="bg-violet flexible linear-gradient">
-					<br>
-					<legend class="resaltar">Busqueda por perifericos</legend>
-					<label for="Mouses">Mouses</label>
-					<input type="radio" value="mouses" id="mouses">
-					<br>
-					<label for="teclados">Teclados</label>
-					<input type="radio" value="teclados" id="teclados">
-					<br>
-					<label for="teclados">Audifonos</label>
-					<input type="radio" value="audifonos" id="audifonos">
-				</fieldset>
-			</form>
-		</section>
-
-		<table border="10px" cellpadding="100%" cellspacing="10px" class="ajustar-productos">
-			<tr class="bg-violet">
-				<th class="box linear-gradient">Modelo</th>
-				<th class="box linear-gradient">Descripcion</th>
-				<th class="box linear-gradient">Codigo</th>
-				<th class="box linear-gradient">Precio</th>
-				<th class="box linear-gradient">Comprar</th>
-			</tr>
-			<tr class="bg-tdth productos-gradient">
-				<td>Mouse Purpura</td>
-				<td>Mouse ultraliviano de 72 g, diseño simétrico, con sensor PMW 3330, 7200 DPI</td>
-				<td>Cod 0001</td>
-				<td>$1000</td>
-				<td><img src="../img/comprar.png" alt="Comprar"></td>
-			</tr>
-			<tr class="bg-tdth productos-gradient">
-				<td>Mouse Rosa</td>
-				<td>Mouse ultraliviano de 72 g, diseño simétrico, con sensor PMW 3330, 7200 DPI</td>
-				<td>Cod 0002</td>
-				<td>$1000</td>
-				<td><img src="../img/comprar.png" alt="Comprar"></td>
-			</tr>
-			<tr class="bg-tdth productos-gradient">
-				<td>Teclado Zafiro</td>
-				<td>Teclado mecánico TKL hot-swap, control multimedia con interruptores Outemu</td>
-				<td>Cod 1001</td>
-				<td>$5000</td>
-				<td><img src="../img/comprar.png" alt="Comprar"></td>
-			</tr>
-			<tr class="bg-tdth productos-gradient">
-				<td>Teclado Esmeralda</td>
-				<td>Teclado mecánico TKL hot-swap, control multimedia con interruptores Outemu</td>
-				<td>Cod 1002</td>
-				<td>$5000</td>
-				<td><img src="../img/comprar.png" alt="Comprar"></td>
-			</tr>
-			<tr class="bg-tdth productos-gradient">
-				<td>Audifonos Super</td>
-				<td>Audífono estéreo con sistema de vibración controlable, iluminación RGB</td>
-				<td>Cod 2001</td>
-				<td>$2000</td>
-				<td><img src="../img/comprar.png" alt="Comprar"></td>
-			</tr>
-		</table>
-	
 
 	<!-- Cierre contenido principal -->
 
 	<!-- inicia footer -->
 
-	<footer class="text-center">
+    <footer class="text-center" id="footer">
 		<h3 class="text-center">Seguinos a Lit en nuestras redes</h3>
 		<a href="https://facebook.com/user">
-			<img src="../img/facebook.png" alt="Seguinos en Facebook">
+			<img src="../img/redes/facebook.png" alt="Seguinos en Facebook">
 		</a>
 		<a href="https://twitter.com/">
-			<img src="../img/twitter.png" alt="Seguinos en Twitter">
+			<img src="../img/redes/twitter.png" alt="Seguinos en Twitter">
 		</a>
 		<a href="https://instagram.com/user">
-			<img src="../img/instagram.png" alt="Seguinos en Instagram">
+			<img src="../img/redes/instagram.png" alt="Seguinos en Instagram">
 		</a>
 		<a href="https://youtube.com/user">
-			<img src="../img/youtube.png" alt="Seguinos en Youtube">
+			<img src="../img/redes/youtube.png" alt="Seguinos en Youtube">
 		</a>
-	</footer>
-	<footer>
 		<h4 class="text-center">©Copyright 2022 Lit Todos los derechos reservados</h4>
 	</footer>
 
-	<!-- Cierra footer -->
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
-	<script src="../js/wow.min.js"></script>
+    <script src="../js/wow.min.js"></script>
     <script>
-    new WOW().init();
+    	new WOW().init();
     </script>
-</body>
+
+  </body>
 </html>
