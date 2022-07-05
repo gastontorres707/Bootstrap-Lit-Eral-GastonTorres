@@ -1,0 +1,9 @@
+
+
+Bueno, basicamente agregue la descripcion, autor y keywords, a cada pantalla. Al tratarse de una pagina de ventas
+algunas palabras se repetian, pero igual las agregue siempre sumando lo caracteristico de cada pantalla. LOs titulos
+los amplie ya que antes solo decian: Contacto, nosotros, etc. Y lo extendi un poco mas.
+
+Con respecto a los mixies, si bien lo entendi y lo aplique para demostrarlo, no encontre quizas la aplicacion justa
+o compleja de los mismos, pero por un tema de que mi codigo no tiene tantas similitudes entre si, como para variar el
+contenido con ya una base establecida como son los mixies. Pero, de igual manera, fueron aplicados segun la consigna. 

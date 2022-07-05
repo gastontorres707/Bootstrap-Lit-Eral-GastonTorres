@@ -52,17 +52,8 @@ h5 {
 h6 {
   font-size: 1.5rem; }
 
-.letraz {
-  font-family: "Potta One", cursive; }
-
 .bg-light {
   background-color: white; }
-
-.bg-violet {
-  background-color: lightblue; }
-
-.bg-yellow {
-  background-color: yellow; }
 
 .bg-night {
   background-color: black; }
@@ -101,3 +92,18 @@ h6 {
 iframe {
   max-width: 100%;
   height: auto; }
+
+.letraz, .letrass {
+  font-family: "Potta One", cursive; }
+
+.letrass {
+  background-color: white; }
+
+h4 {
+  font-family: "Potta One", cursive; }
+
+.bg-violet {
+  background-color: lightblue; }
+
+.bg-yellow {
+  background-color: yellow; }
