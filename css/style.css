@@ -37,7 +37,7 @@ h1 {
   padding-top: 3%; }
 
 h2 {
-  color: blue;
+  color: grey;
   font-size: 3rem; }
 
 h3 {
@@ -69,6 +69,12 @@ h6 {
 
 .contacto-gradient {
   background: linear-gradient(to right, purple, blue); }
+
+.btn-mezcla {
+  background: linear-gradient(to top, purple, pink); }
+
+.btn-gris {
+  background: grey; }
 
 .video {
   width: 50%;
